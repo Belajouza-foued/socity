@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Product from './pages/Product';
 import AddProduct from './pages/AddProduct';
 import EditProduct from './pages/EditProduct';
-
+import Contact from './pages/Contact';
 const App = () => {
   
   return (
@@ -14,6 +14,7 @@ const App = () => {
                <Route path="/" element={<Product />} />
                <Route path="addProduct" element={<AddProduct />} />
                <Route path="/product/:id" element={<EditProduct />} />
+               <Route path="contact" element={<Contact />} />
        
       </Routes>
     
